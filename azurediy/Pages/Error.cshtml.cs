@@ -25,6 +25,7 @@ namespace azurediy.Pages
 
         public void OnGet()
         {
+            // comment here
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
         }
     }
